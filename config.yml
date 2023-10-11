@@ -1,0 +1,8 @@
+development:
+  password: shptka_df270e7ba25dbf135f8a062d75d62243
+  theme_id: "137143222520"
+  store: automatic-theme.myshopify.com
+  ignore_files:
+    - "*.gif"
+    - "*.jpg"
+    - config/settings_data.json
