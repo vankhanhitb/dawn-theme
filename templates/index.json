@@ -27,6 +27,8 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/push-clothing-2.webp",
+        "image_2": "shopify:\/\/shop_images\/push-clothing.webp",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
