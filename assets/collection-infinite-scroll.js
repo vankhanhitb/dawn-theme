@@ -4,7 +4,7 @@ class AjaxPagination extends HTMLElement{
 		this.settings = {};
 		this.defaultSettings = { 
 			pagination: "#Scroll-Pagination", 
-			method: "scroll", 
+			method: "scroll", // Change to click if you want implement load more when user click 
 			container: "#product-grid", 
 			offset: 0, 
 			loadingText: "Loading", 
@@ -90,7 +90,7 @@ class AjaxPagination extends HTMLElement{
 	}
 
 	removeClickListener() {
-		this.nextPageLinkElement.addEventListener("click", this.stopMultipleClicks);
+		this.nextPageLinkElement?.addEventListener("click", this.stopMultipleClicks);
 	}
 
 	removeScrollListener() {
